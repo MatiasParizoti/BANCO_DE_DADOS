@@ -1,0 +1,32 @@
+
+					"Perspectiva historica"
+ted codd : ele permitia que usuarios não tecnicos manipulassem grandes quantidades de informações.
+
+"todo mundo cagou para ted"
+
+Mas Don Chamberlim - cientista de dados - ele viu a pesquisa de ted e criou SQL
+
+(sql - foi a empresa que ajudou a IBM para criar o primeiro banco de dados)
+
+mas a empresa não tomou cuidado e Larry Ellison capturou as informações e se tornou rival da propria IBM
+
+
+Banco de dados : é um sistema de armazenameto de dados cujo o 
+objetivo é registrar as informações importantes que poderão ser
+                acessadas quando necessãrio
+
+quatro funções: inserir,alterar,remover,consutar
+
+banco vs base:
+
+Base:
+ela integra varios setores de uma empresa,
+ armazena esses dados , ver se a empresa esta
+ boa e gerar resultados
+Banco:
+está voltado apenas para armazenamento
+
+ERP:
+otimização de recursos e o aumento da eficiência
+operacional.
+
