@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: red;
+}
+body::-webkit-scrollbar-thumb{
+    background: black;
+}
+header{
+    background-image: url('../images/tennis.jfif');
+    min-height: 450px;
+    padding: 30px 0;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.logo{
+    position: relative;
+    background-image: url('../images/logo1-removebg-preview.png');
+    z-index: 2;
+    background-size: 100%  100%;
+    width: 100px;
+    height: 70px;
+    float: left;
+   
+}
+.menu-desktop{
+    float: right;
+    padding-right: 135px;
+}
+.menu-desktop ul{
+ list-style: nome;
+}
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.menu-desktop a{
+   text-decoration: none;
+   font-size: 25px;
+   color: black;
+
+}
+
+.menu-mobile{
+    float: right;
+    display: none;
+}
+.menu-mobile ul{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    display: none;
+    text-align: center;
+    background-color: #fff;
+}
+.chamada{
+    padding: 150px 0 ;
+}
+.chamada h2{
+    
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+    max-width: 550px;
+}
+.chamada p{
+    font-size: 21px;
+    margin-top: 10px;
+    max-width: 550px;
+
+}
+.chamada form{
+    margin-top: 15px;
+}
+.chamada input[type="email"]:focus{outline: 0;}
+.chamada input[type="email"]{
+    width: 300px;
+    height: 41px;
+    border-radius: 100px;
+    background-color:#fff ;
+    border: 1px solid red;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.chamada input[type="submit"]{
+    width: 180px;
+    height: 41px;
+    border-radius: 100px;
+    background-color:rgba(250, 0, 0, 0.785) ;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+}
+.descricao{
+text-align: center;
+padding: 30px 0;
+}
+.descricao p{
+    font-size: 25px;
+    font-style: italic;
+}
+.descricao b{
+    color:rgba(250, 0, 0, 0.773) ;
+    font-size: 27px;
+}
+.texto-descricao{
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+    
+}
+
+.texto-descricao h3{
+
+    color: black;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 25px;
+    
+}
+
+.texto-descricao p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.descricao2 img{
+    float: left;
+    width: 40%;
+}
+.mensagem{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px 0 rgba(51,45,45, 0.8);
+}
+.clear{
+    clear: both;
+}
+
+.descricao3 .container{
+    background-image: url('../images/nike-metall.svg');
+    background-size: cover;
+    position: relative;
+    min-height: 480px;
+}
+.depoimento{
+    position: absolute;
+    background-image: linear-gradient(rgba(211, 200, 191, 0.819),rgb(23, 24, 28));
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.916),rgb(88, 88, 93)); */
+    left: 60%;
+    bottom: -30px;
+    max-width: 487px;
+    padding: 40px;
+    box-shadow: 0 8px 20px 0 rgba(51,45,45, 0.8);
+}
+
+.ph{
+    color:rgb(20, 19, 19) ;
+}
+
+.depoimento b{
+    font-size: 19px;
+    color:rgba(200, 189, 189, 0.832) ;
+}
+
+.titulo-servico{
+    text-align: center;  
+}
+
+.servicos{
+    margin-top: 60px;
+}
+.combo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.espaco-produtos{
+    
+    display: flex;
+    width: 33%;
+    padding: 16px 26px ;
+
+}
+.box-produtos:hover{
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.espaco-produtos a{
+    display: inline-block;
+    border: 1px solid gray;
+    color: #31475e;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 6px 13px ;
+    border-radius: 20px;
+}
+.espaco-produtos p{
+    margin: 9px 0;
+}
+
+.box-produtos{
+    border-radius: 3px;
+    height: 100%;
+    box-shadow: 0 8px 20px 0 rgba(110,109,109, 0.8);
+    padding: 10px;
+    transition: .35s;
+    cursor: pointer;
+}
+.formulario{
+    padding: 30px 0;
+}
+.formulario h2{
+    text-align: center;
+}
+.formulario form{
+    margin-top: 10px;
+}
+.formulario input[type=text]{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(211, 18, 18);
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 8px;
+}
+.formulario textarea{
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+    border: 1px solid rgb(207, 21, 21);
+    border-radius: 6px;
+
+}
+.formulario input[type=submit]{
+
+    width: 180px;
+    height: 41px;
+    border-radius: 100px;
+    background-color:rgba(250, 0, 0, 0.896) ;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+}
+footer{
+    margin: 50px 0;
+    border: 1px solid gray;
+}
+.box-footer{
+    float: left;
+    width: 33%;
+    padding: 0 15px;
+
+
+}
+.box-footer p{
+    margin-top: 15px;
+    font-size: 21px;
+
+}
+.box-footer input[type=text]{
+    width: 80%;
+    padding-left: 10px;
+    max-width: 190px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid rgb(226, 25, 25);
+
+}
+.box-footer button{
+    margin-left: 10px;
+    max-width: 60px;
+    height: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: #d12b2b;
+    width: 70px;
+
+}
+
+/*  Abaixo codigo de responsividade */
+/*apenas para aipad e tablets*/
+
+@media screen  and (max-width:1024px){
+
+    .depoimento{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        padding: 30px;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .espaco-produtos{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
+        
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .chamada{
+        text-align: center;
+    }
+    .chamada input[type="email"]{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* definind0 medidas para celulares */
+@media screen  and (max-width:768px){
+
+    .texto-descricao{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .descricao2 img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-top: 10px;
+        max-width: 500px;
+    }
+
+}
